@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921873262689",
+    "firebase_url": "https://bada-easy.firebaseio.com",
+    "project_id": "bada-easy",
+    "storage_bucket": "bada-easy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921873262689:android:e2c820a9d3a53f95e76220",
+        "android_client_info": {
+          "package_name": "com.service.badaeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921873262689-49m8vpjbsj4kfi4f2c7b08i9u504jio1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.badaeasy",
+            "certificate_hash": "d52797481b2c761ccc521ecce950bc3edbce2598"
+          }
+        },
+        {
+          "client_id": "921873262689-icp39ona4omdgn0ofolepcc83q0nq68o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZis0WWlSfqE7706ORXBBoPBvTi1vq_bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921873262689-icp39ona4omdgn0ofolepcc83q0nq68o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

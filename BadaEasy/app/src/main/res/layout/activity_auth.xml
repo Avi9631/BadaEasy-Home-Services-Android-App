@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reward_gradient_background"
+    tools:context=".AuthActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:text="Login or Sign up  using"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/auth_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:drawableTint="#d6d6d6"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/auth_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/key"
+            android:drawableTint="#d6d6d6"
+            android:drawablePadding="10dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="15dp"
+            app:layout_constraintEnd_toEndOf="@+id/auth_email"
+            app:layout_constraintStart_toStartOf="@+id/auth_email"
+            app:layout_constraintTop_toBottomOf="@+id/auth_email" />
+
+        <Button
+            android:id="@+id/auth_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="SIGN IN / SIGN UP"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/auth_password"
+            app:layout_constraintStart_toStartOf="@+id/auth_password"
+            app:layout_constraintTop_toBottomOf="@+id/auth_password" />
+
+        <TextView
+            android:id="@+id/auth_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Forgot Password? Click here"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="@+id/auth_btn"
+            app:layout_constraintStart_toStartOf="@+id/auth_btn"
+            app:layout_constraintTop_toBottomOf="@+id/auth_btn" />
+
+        <ImageView
+            android:id="@+id/auth_viewpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/auth_password"
+            app:layout_constraintEnd_toEndOf="@+id/auth_password"
+            app:layout_constraintTop_toTopOf="@+id/auth_password"
+            app:srcCompat="@drawable/seepassword"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

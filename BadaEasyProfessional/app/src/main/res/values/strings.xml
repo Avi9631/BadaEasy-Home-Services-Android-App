@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BadaEasy Professional</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="pay_status">
+        <item>PAID</item>
+        <item>UNPAID</item>
+    </string-array>
+
+    <string-array name="pay_mode">
+        <item>CASH</item>
+        <item>GPAY</item>
+        <item>PHONEPE</item>
+        <item>PAYTM</item>
+        <item>UPI PAYMENTS</item>
+    </string-array>
+
+    <string-array name="ac_spin">
+        <item>NO</item>
+        <item>YES</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.service.beadmin">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SupportActivity"></activity>
+        <activity android:name=".EditBookingActivity" />
+        <activity android:name=".UserDetailsActivity" />
+        <activity android:name=".BookHistoryActivity" />
+        <activity android:name=".AdmitProActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".ServiceItemActivity" />
+        <activity android:name=".ServiceItem2Activity" />
+        <activity android:name=".ServicesBuyActivity" />
+        <activity android:name=".OrderDetailsActivity" />
+        <activity android:name=".CompletedBookingActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
